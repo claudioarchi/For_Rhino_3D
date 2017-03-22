@@ -2,8 +2,10 @@
 #  Inputs:
 #  textIds: The script variable must be a list Acces and ghdoc Object type hint
 # refresh: The script variable must be an Item Acces and ghdoc Object type hint
+# The variable should be a bool component
 #  Output:
-#  pts: The a output variable (3d points in this case)
+#  pts: The a output variable (3d points in this case) to be used with a
+# Delaunay mesh component
 
 import scriptcontext as sc
 import Rhino
